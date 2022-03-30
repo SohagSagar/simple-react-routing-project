@@ -1,0 +1,23 @@
+.header-container{
+    position: sticky;
+    top:0px;
+    background-color: rgb(252, 253, 253);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.header-container h1{
+    margin-top: 0px;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+    color: black;   
+}
+nav{
+    padding-bottom: 15px; 
+}
+.header-container nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
